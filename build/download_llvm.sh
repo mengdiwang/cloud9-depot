@@ -10,8 +10,6 @@
 # Reverting problematic clang rolls is safe, though.
 CLANG_REVISION=159523
 
-CC=gcc 
-CXX=g++ 
 THIS_DIR="$(dirname "${0}")"
 LLVM_DIR="${THIS_DIR}/../third_party/llvm"
 LLVM_BUILD_DIR="${LLVM_DIR}/../llvm-build"
