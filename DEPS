@@ -38,7 +38,7 @@ vars = {
 
 deps = {
   "src/cloud9":
-    "git+https://github.com/dslab-epfl/cloud9.git",
+    "git+https://github.com/mengdiwang/cloud9.git",
   "src/klee-uclibc":
     "git+https://github.com/dslab-epfl/cloud9-uclibc.git",
 
