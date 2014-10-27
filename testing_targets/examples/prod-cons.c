@@ -52,11 +52,10 @@ int main() {
   	int a;
 	int b;
 	int i;
-	int k;
+	int k = 10;
 	klee_make_symbolic(&a, sizeof(a), "a");
 	klee_make_symbolic(&b, sizeof(b), "b");
-	klee_make_symbolic(&k, sizeof(i), "k");
-	i=0;
+	klee_make_symbolic(&i, sizeof(i), "i");
 	while(i<k)
 	{
 		if(i>5)
@@ -68,15 +67,5 @@ int main() {
 			i++;
 	}	
 
-/*
-	if(a>b)
-	{
-		test(a, b);
-	}
-	else
-	{
-		test(b, a);
-	}
-*/
 	return 0;
 }
